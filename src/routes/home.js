@@ -3,7 +3,8 @@ const router = require('express').Router()
 router.route('/').get((req, res) => {
   res.send(
       {
-          author: 'AGR'
+          author1: 'AGR',
+          author2: 'OCA'
       }
   );
 })
